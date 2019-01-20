@@ -46,6 +46,11 @@
                         <h1 class="card-header"><i class="fas fa-envelope"></i>Laissez-moi un message !</h1>
                         <section class="card-body">
                             <div class="form-group">
+                                <label for="nom">Votre nom :</label>
+                                <input id="nom" class="form-control"
+                                       name="nom" type="text" placeholder="Entrez votre nom" required>
+                            </div>
+                            <div class="form-group">
                                 <label for="email">Votre adresse e-mail :</label>
                                 <input id="email" class="form-control"
                                        name="email" type="email" placeholder="Entrez votre email" required
@@ -68,10 +73,13 @@
                 <aside class="col-md-4 mb-3">
                     <div class="card">
                         <h2 class="card-header">Pour me contacter</h2>
-                        <ul class="list-group list-group-flush fa-ul">
-                            <li class="list-group-item pl-1">
-                                <span class="fa-li"><i class="fas fa-envelope fa-fw"></i></span>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <i class="fas fa-envelope fa-fw mr-3"></i>
                                 <a href="mailto:julien.capellari@edu.ece.fr">julien.capellari@edu.ece.fr</a>
+                            </li>
+                            <li class="list-group-item">
+                                <i class="fas fa-phone fa-fw mr-3"></i>06 88 11 55 449 933 44
                             </li>
                         </ul>
                     </div>
