@@ -1,0 +1,36 @@
+/*
+ * style_formations.css
+ */
+
+@keyframes arrivee-bas {
+    from { top: 100vh }
+    to { top: 0 }
+}
+
+@keyframes arrivee-gauche {
+    from { right: 100vw }
+    to { right: 0 }
+}
+
+@keyframes arrivee-droite {
+    from { left: 100vw }
+    to { left: 0 }
+}
+
+main .card {
+    position: relative;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+main .card:nth-child(3n+0) {
+    animation-name: arrivee-bas;
+}
+
+main .card:nth-child(3n+1) {
+    animation-name: arrivee-gauche;
+}
+
+main .card:nth-child(3n+2) {
+    animation-name: arrivee-droite;
+}

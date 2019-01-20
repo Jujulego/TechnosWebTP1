@@ -17,3 +17,7 @@
 h1.card-header, h2.card-header {
     font-size: 1.25em;
 }
+
+.card-columns {
+    column-count: 4;
+}
