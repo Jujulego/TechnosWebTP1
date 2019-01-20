@@ -14,6 +14,7 @@
 
         <!-- CSS -->
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style_index.css" />
     </head>
     <body>
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
@@ -33,9 +34,6 @@
                         <a class="nav-link" href="formations.html"><i class="fas fa-graduation-cap"></i>Formations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-flask"></i>Projets</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i>Contact</a>
                     </li>
                 </ul>
@@ -43,7 +41,24 @@
         </nav>
 
         <header>
-            <h1 class="mt-5 text-center">Enfin un blog sur Moi ;)</h1>
+            <h1 id="titre">Enfin un blog sur Moi ;)</h1>
         </header>
+
+        <main class="container-fluid">
+            <div class="row">
+                <aside class="col-3">
+                    <figure class="figure">
+                        <img id="photo_profil" class="figure-img img-fluid"
+                             src="photodeprofilmefiance.jpg" />
+                        <figcaption class="figure-caption">Moi, en train de faire ce site</figcaption>
+                    </figure>
+                </aside>
+                <article class="col-9">
+                    <h2>Julien CAPELLARI</h2>
+                    <p>21 ans</p>
+                    <p>Etudiant (et <span class="barre">hacker</span> développeur à ses heures perdues)</p>
+                </article>
+            </div>
+        </main>
     </body>
 </html>

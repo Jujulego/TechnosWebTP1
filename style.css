@@ -21,3 +21,7 @@ h1.card-header, h2.card-header {
 .card-columns {
     column-count: 4;
 }
+
+.barre {
+    text-decoration: line-through;
+}

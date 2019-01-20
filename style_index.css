@@ -1,0 +1,12 @@
+/*
+ * style_index.css
+ */
+
+#titre {
+    margin: 2rem;
+    margin-left: 4rem;
+}
+
+#photo_profil {
+    border-radius: 50%;
+}
